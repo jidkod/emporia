@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>About | Emporia Growth Ventures</title>
+<meta name="description" content="We provide advisory and consulting services, business development and sales, creative development services, and digital innovation and business transformation.">
+<link rel="canonical" href="https://your-domain.example/about.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Emporia Growth Ventures">
+<meta property="og:locale" content="en_GB">
+<meta property="og:title" content="About | Emporia Growth Ventures">
+<meta property="og:description" content="We provide advisory and consulting services, business development and sales, creative development services, and digital innovation and business transformation.">
+<meta property="og:url" content="https://your-domain.example/about.html">
+<meta property="og:image" content="https://your-domain.example/assets/img/og-emporia.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two men standing in a modern office atrium, looking at a tablet together.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1B3622">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..700,0..100,0..1;1,9..144,300..700,0..100,0..1&family=Montserrat:wght@400..700&display=swap">
+<style>/* Emporia Growth Ventures Limited
+   Layout: 12-column grid on a 1248px measure. Dark, leaf-patterned bands open and close
+   every page; photographs and dark panels lose their top-right corner on a diagonal. */
+:root {
+  /* Colour: the four brand tiers plus white. Nothing else is used. */
+  --dark: #1B3622;
+  --medium: #3B6943;
+  --light: #E6EBE0;
+  --accent: #F3AA1F;
+  --white: #FFFFFF;
+  --rule: rgba(59, 105, 67, .38);          /* Medium, thinned for hairlines */
+  --rule-on-dark: rgba(255, 255, 255, .22);
+  --soft-on-dark: rgba(255, 255, 255, .82);
+
+  /* Type */
+  --display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --body: "Montserrat", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --fs-hero: clamp(2.75rem, 1.4rem + 5.6vw, 5.75rem);
+  --fs-h1: clamp(2.5rem, 1.5rem + 4.2vw, 4.75rem);
+  --fs-h2: clamp(1.9rem, 1.35rem + 2.2vw, 3rem);
+  --fs-h3: clamp(1.25rem, 1.15rem + .45vw, 1.5rem);
+  --fs-statement: clamp(1.45rem, 1.1rem + 1.5vw, 2.15rem);
+  --fs-lede: clamp(1.0625rem, 1rem + .4vw, 1.3rem);
+  --fs-body: 1rem;
+  --fs-small: .875rem;
+  --fs-label: .72rem;
+
+  /* Layout */
+  --gutter: clamp(20px, 4vw, 48px);
+  --gap: clamp(16px, 2.2vw, 32px);
+  --section: clamp(64px, 9vw, 128px);
+  --cut: clamp(28px, 4.5vw, 64px);
+  --header-h: 76px;
+  --leaf: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='84' viewBox='0 0 52 84'%3E%3Cg fill='%233B6943'%3E%3Cpath d='M22 6Q12.7 8.7 6 16.2q5.8 0 8.9 4.5Z'/%3E%3Cpath d='M48 48q-9.300 2.700-16 10.200 5.800 0 8.900 4.500Z'/%3E%3C/g%3E%3C/svg%3E");
+  color-scheme: light;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--white);
+  color: var(--dark);
+  font-family: var(--body);
+  font-size: var(--fs-body);
+  line-height: 1.7;
+  font-variation-settings: "SOFT" 0, "WONK" 0;  /* Fraunces: plain letterforms and ampersand, as in the profile */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+img, svg { display: block; max-width: 100%; }
+img { height: auto; }
+h1, h2, h3, h4, p, ul, ol, figure, blockquote, dl, dd { margin: 0; }
+ul, ol { padding: 0; list-style: none; }
+a { color: var(--medium); text-underline-offset: .2em; text-decoration-thickness: 1px; }
+a:hover { color: var(--dark); }
+h1, h2, h3, h4 { font-family: var(--display); font-weight: 480; color: var(--dark); text-wrap: balance; }
+h1 { font-size: var(--fs-h1); line-height: 1.02; letter-spacing: -.022em; }
+h2 { font-size: var(--fs-h2); line-height: 1.08; letter-spacing: -.016em; }
+h3 { font-size: var(--fs-h3); line-height: 1.22; font-weight: 600; letter-spacing: -.005em; }
+p { text-wrap: pretty; }
+::selection { background: var(--accent); color: var(--dark); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  box-shadow: 0 0 0 3px var(--dark);
+}
+.sr-only {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip-path: inset(50%); white-space: nowrap;
+}
+.skip {
+  position: absolute; left: var(--gutter); top: -100px; z-index: 100;
+  background: var(--accent); color: var(--dark); padding: .75rem 1rem;
+  font-weight: 600; text-decoration: none;
+}
+.skip:focus { top: 12px; }
+
+/* ---------- Grid ---------- */
+.wrap { width: 100%; max-width: 1344px; margin-inline: auto; padding-inline: var(--gutter); }
+.grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap); row-gap: clamp(28px, 4vw, 56px); }
+.grid > * { grid-column: 1 / -1; min-width: 0; }
+@media (min-width: 900px) {
+  .grid > [data-col] { grid-column: var(--col); }
+  .grid > [data-row] { grid-row: var(--row); }
+}
+.center-y { align-self: center; }
+.end-y { align-self: end; }
+.stack { display: flex; flex-direction: column; gap: var(--stack, 1.25rem); }
+.measure { max-width: 62ch; }
+
+.section { padding-block: var(--section); }
+.section--light { background: var(--light); }
+.section--flush-top { padding-top: 0; }
+.section[id], [id].anchor { scroll-margin-top: calc(var(--header-h) + 16px); }
+
+/* ---------- Small type ---------- */
+.label {
+  font-family: var(--body); font-size: var(--fs-label); font-weight: 600;
+  letter-spacing: .2em; text-transform: uppercase; line-height: 1.5; color: var(--medium);
+}
+.lede { font-size: var(--fs-lede); line-height: 1.6; color: var(--medium); font-weight: 500; }
+.statement { font-family: var(--display); font-size: var(--fs-statement); line-height: 1.22; font-weight: 520; color: var(--medium); letter-spacing: -.01em; text-wrap: balance; }
+.small { font-size: var(--fs-small); line-height: 1.6; }
+
+/* Section kicker: amber rule, section number, optional label */
+.kicker { display: flex; align-items: center; gap: 14px; }
+.kicker::before { content: ""; width: 40px; height: 2px; background: var(--accent); flex: none; }
+.kicker .num { font-weight: 700; color: var(--dark); letter-spacing: .2em; }
+.sec-head { display: flex; flex-direction: column; gap: 14px; margin-bottom: clamp(32px, 4.5vw, 64px); }
+.sec-head .lede { max-width: 56ch; margin-top: 6px; }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: .75rem;
+  min-height: 52px; padding: .9rem 1.5rem;
+  font-family: var(--body); font-size: .76rem; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; text-decoration: none; line-height: 1.2; text-align: center;
+  border: 2px solid transparent; border-radius: 0; cursor: pointer;
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+.btn .ico { width: 18px; height: 18px; transition: transform .25s ease; }
+.btn:hover .ico { transform: translateX(4px); }
+.btn-primary { background: var(--accent); color: var(--dark); border-color: var(--accent); }
+.btn-primary:hover { background: var(--dark); color: var(--white); border-color: var(--dark); }
+.band .btn-primary:hover, .site-header .btn-primary:hover, .panel-dark .btn-primary:hover { background: var(--white); color: var(--dark); border-color: var(--white); }
+.btn-ghost { background: transparent; color: var(--dark); border-color: var(--dark); }
+.btn-ghost:hover { background: var(--dark); color: var(--white); }
+.band .btn-ghost { color: var(--white); border-color: var(--white); }
+.band .btn-ghost:hover { background: var(--white); color: var(--dark); }
+.btn-sm { min-height: 44px; padding: .6rem 1.1rem; font-size: .7rem; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; }
+.btn[disabled] { opacity: .6; cursor: progress; }
+
+/* ---------- Icons: one line set, 1.5 stroke, round caps ---------- */
+.ico { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; flex: none; }
+.ico-disc {
+  display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%;
+  background: var(--light); color: var(--medium); flex: none;
+}
+.ico-disc .ico { width: 22px; height: 22px; }
+.ico-disc--white { background: var(--white); }
+.ico-disc--solid { background: var(--medium); color: var(--white); }
+.ico-disc--ondark { background: var(--medium); color: var(--accent); }
+
+/* ---------- Dark bands and the leaf pattern ---------- */
+.band { position: relative; isolation: isolate; background: var(--dark); color: var(--white); }
+.band::before {
+  content: ""; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-image: var(--leaf); background-size: 52px 84px; opacity: .7;
+  -webkit-mask-image: linear-gradient(100deg, transparent 28%, #000 88%);
+  mask-image: linear-gradient(100deg, transparent 28%, #000 88%);
+}
+.band h1, .band h2, .band h3 { color: var(--white); }
+.band .lede { color: var(--soft-on-dark); font-weight: 400; }
+.band .label { color: var(--accent); }
+.band .kicker .num { color: var(--accent); }
+.band a { color: var(--white); }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 50;
+  background: var(--dark); color: var(--white);
+  border-bottom: 1px solid var(--rule-on-dark);
+}
+.header-in { display: flex; align-items: center; gap: 20px; min-height: var(--header-h); }
+.brand { display: block; flex: none; padding: 10px 0; margin-right: auto; }
+.brand img { width: auto; height: 32px; }
+.site-nav ul { display: flex; align-items: center; gap: clamp(14px, 1.7vw, 28px); }
+.site-nav a {
+  display: block; padding: 10px 0; color: var(--white); text-decoration: none;
+  font-size: .84rem; font-weight: 500; letter-spacing: .01em; white-space: nowrap;
+  background: linear-gradient(var(--accent), var(--accent)) left calc(100% - 4px) / 0 2px no-repeat;
+  transition: background-size .25s ease;
+}
+.site-nav a:hover, .site-nav a[aria-current="page"] { background-size: 100% 2px; }
+.site-nav a[aria-current="page"] { font-weight: 600; }
+.site-nav .nav-cta { display: none; }
+.menu-toggle {
+  display: none; width: 48px; height: 48px; padding: 0; place-items: center;
+  background: transparent; color: var(--white); border: 1px solid var(--rule-on-dark); cursor: pointer;
+}
+.menu-toggle .ico-close { display: none; }
+.menu-toggle[aria-expanded="true"] .ico-open { display: none; }
+.menu-toggle[aria-expanded="true"] .ico-close { display: block; }
+
+@media (max-width: 1199px) {
+  .menu-toggle { display: grid; }
+  .site-nav {
+    display: none; position: absolute; left: 0; right: 0; top: 100%;
+    background: var(--dark); border-top: 1px solid var(--rule-on-dark);
+    max-height: calc(100vh - var(--header-h)); overflow-y: auto;
+    padding: 8px var(--gutter) 28px;
+  }
+  .site-header.nav-open .site-nav { display: block; }
+  .site-nav ul { flex-direction: column; align-items: stretch; gap: 0; }
+  .site-nav li + li { border-top: 1px solid var(--rule-on-dark); }
+  .site-nav a { font-family: var(--display); font-size: 1.45rem; font-weight: 480; padding: 16px 0; background: none; white-space: normal; }
+  .site-nav a[aria-current="page"] { color: var(--accent); font-weight: 480; }
+  .site-nav .nav-cta { display: block; border-top: 0; padding-top: 20px; }
+  .site-nav .nav-cta a { font-family: var(--body); font-size: .76rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; text-align: center; padding: 1.05rem 1.5rem; color: var(--dark); background: var(--accent); }
+  .site-nav .nav-cta a[aria-current] { color: var(--dark); }
+}
+@media (max-width: 559px) {
+  .header-cta { display: none; }
+  .brand img { height: 28px; }
+}
+@media (min-width: 560px) and (max-width: 1199px) {
+  .site-nav .nav-cta { display: none; }
+}
+
+/* ---------- Heroes ---------- */
+.eyebrow { display: flex; align-items: center; gap: 14px; }
+.eyebrow::before { content: ""; width: 40px; height: 2px; background: var(--accent); flex: none; }
+.home-hero { padding-top: clamp(48px, 7vw, 104px); display: flow-root; }
+.home-hero > .wrap { display: flow-root; }
+.home-hero h1 { font-size: var(--fs-hero); line-height: .98; letter-spacing: -.028em; font-weight: 440; }
+.home-hero .stack { --stack: clamp(20px, 2.4vw, 32px); }
+.home-hero .lede { max-width: 54ch; }
+.hero-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(24px, 3vw, 40px) var(--gap); }
+@media (min-width: 1200px) {
+  .hero-grid { grid-template-columns: minmax(0, 7.6fr) minmax(0, 4.4fr); align-items: end; }
+  .hero-side { padding-bottom: 14px; }
+}
+.hero-photo { margin-top: clamp(40px, 5vw, 72px); margin-bottom: calc(-1 * clamp(56px, 9vw, 140px)); position: relative; z-index: 1; }
+.hero-photo img { width: 100%; aspect-ratio: 21 / 9; object-fit: cover; object-position: 50% 22%; }
+@media (max-width: 699px) { .hero-photo img { aspect-ratio: 4 / 3; object-position: 52% 30%; } }
+.after-hero-photo { padding-top: calc(clamp(56px, 9vw, 140px) + var(--section) * .75); }
+
+.page-hero { padding-block: clamp(52px, 7.5vw, 112px); }
+.page-hero .stack { --stack: clamp(18px, 2vw, 28px); }
+.page-hero .lede { max-width: 50ch; }
+.hero-cta { margin-top: 6px; }
+.toc { align-self: end; }
+.toc .label { margin-bottom: 10px; }
+.toc a {
+  display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  padding: 13px 0; border-top: 1px solid var(--rule-on-dark);
+  color: var(--white); text-decoration: none; font-size: .92rem; font-weight: 500;
+  transition: padding-left .25s ease;
+}
+.toc li:last-child a { border-bottom: 1px solid var(--rule-on-dark); }
+.toc a .n { font-size: var(--fs-label); font-weight: 700; letter-spacing: .14em; color: var(--accent); }
+.toc a:hover { padding-left: 8px; }
+
+/* ---------- Photography: one treatment, corner cut top right ---------- */
+.photo { background: var(--light); clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
+.photo img { width: 100%; height: 100%; object-fit: cover; }
+.photo--wide img { aspect-ratio: 21 / 9; }
+.photo--land img { aspect-ratio: 3 / 2; }
+.photo--port img { aspect-ratio: 4 / 5; }
+.photo--tall img { aspect-ratio: 3 / 4; }
+@media (max-width: 899px) { .photo--wide img { aspect-ratio: 16 / 9; } .photo--port img, .photo--tall img { aspect-ratio: 4 / 3; } }
+
+/* ---------- Panels and cards ---------- */
+.panel-dark {
+  background: var(--dark); color: var(--white); padding: clamp(28px, 3.6vw, 52px);
+  clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%);
+}
+.panel-dark h2, .panel-dark h3 { color: var(--white); }
+.panel-dark .label, .panel-dark .kicker .num { color: var(--accent); }
+.panel-dark p { color: var(--soft-on-dark); }
+.panel-dark a { color: var(--white); }
+.card { background: var(--light); padding: clamp(24px, 2.8vw, 40px); display: flex; flex-direction: column; gap: 14px; transition: transform .3s ease; }
+.section--light .card { background: var(--white); }
+.card:hover { transform: translateY(-4px); }
+.card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 10px; }
+.card .n, .tile .n { font-size: var(--fs-label); font-weight: 700; letter-spacing: .16em; color: var(--medium); }
+.card .ico-disc { background: var(--white); }
+.section--light .card .ico-disc { background: var(--light); }
+.cols-2, .cols-3, .cols-4 { display: grid; gap: var(--gap); grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 640px) { .cols-2, .cols-3, .cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 960px) {
+  .cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+.tile { border-top: 1px solid var(--medium); padding-top: 22px; display: flex; flex-direction: column; gap: 12px; }
+.tiles { row-gap: clamp(32px, 4vw, 56px); }
+
+/* ---------- Home ---------- */
+.glance { padding: clamp(32px, 4.5vw, 64px); }
+.glance-figs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px 0; margin-top: clamp(28px, 3.5vw, 48px); }
+.glance-figs > div { padding: 0 18px; border-left: 1px solid var(--rule-on-dark); display: flex; flex-direction: column; gap: 10px; }
+.glance-figs dt { order: 2; font-size: var(--fs-small); line-height: 1.45; color: var(--white); }
+.glance-figs dd { order: 1; font-family: var(--display); font-weight: 300; font-size: clamp(3rem, 2rem + 3.6vw, 5rem); line-height: .9; color: var(--accent); font-variant-numeric: lining-nums; }
+@media (min-width: 640px) { .glance-figs { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (min-width: 1040px) { .glance-figs { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+
+.teasers { border-bottom: 1px solid var(--medium); }
+.teaser { position: relative; border-top: 1px solid var(--medium); padding-block: clamp(26px, 3.4vw, 44px); row-gap: 12px; align-items: baseline; transition: background-color .3s ease, box-shadow .3s ease; }
+.teaser:hover { background: var(--light); box-shadow: -16px 0 0 var(--light), 16px 0 0 var(--light); }
+.teaser .n { font-size: var(--fs-label); font-weight: 700; letter-spacing: .2em; color: var(--medium); padding-left: 4px; }
+.teaser h2 a { color: var(--dark); text-decoration: none; }
+.teaser h2 a::after { content: ""; position: absolute; inset: 0; }
+.teaser .go { justify-self: end; align-self: center; color: var(--medium); transition: transform .3s ease; padding-right: 4px; }
+.teaser:hover .go { transform: translateX(8px); }
+.teaser .go .ico { width: 28px; height: 28px; }
+@media (max-width: 899px) { .teaser .go { display: none; } }
+
+.closing { padding-block: clamp(72px, 10vw, 144px); }
+.closing h2 { font-size: clamp(2rem, 1.3rem + 3vw, 3.6rem); max-width: 20ch; }
+
+/* ---------- About ---------- */
+.provide { row-gap: 0; }
+.provide li { display: flex; align-items: center; gap: 16px; padding: 20px 0; border-top: 1px solid var(--medium); }
+ul.provide:not(.cols-4) li:last-child { border-bottom: 1px solid var(--medium); }
+.provide h3 { font-size: 1.12rem; }
+.steps { row-gap: 36px; }
+.steps li { position: relative; display: flex; flex-direction: column; gap: 14px; }
+.steps li::before { content: ""; position: absolute; left: 52px; right: calc(-1 * var(--gap)); top: 26px; height: 1px; background: var(--medium); }
+.steps li:last-child::before { display: none; }
+@media (max-width: 959px) { .steps li::before { display: none; } }
+.steps .n { font-size: var(--fs-label); font-weight: 700; letter-spacing: .16em; color: var(--medium); }
+.values li { display: flex; align-items: center; gap: 20px; padding: 18px 0; border-top: 1px solid var(--medium); }
+.values li:last-child { border-bottom: 1px solid var(--medium); }
+.values h3 { font-size: clamp(1.35rem, 1.2rem + .8vw, 1.75rem); font-weight: 520; flex: 1; }
+.values .n { font-size: var(--fs-label); font-weight: 700; letter-spacing: .16em; color: var(--medium); }
+.mv-head { display: flex; align-items: center; gap: 14px; }
+.vision .statement { color: var(--white); }
+.vision { display: flex; flex-direction: column; gap: 22px; }
+.leader-name { font-size: clamp(1.9rem, 1.4rem + 1.8vw, 2.6rem); font-weight: 480; }
+.leader-role { font-weight: 600; }
+.leader-meta { border-top: 1px solid var(--medium); border-bottom: 1px solid var(--medium); padding-block: 20px; display: flex; flex-direction: column; gap: 6px; }
+.leader-meta .small { color: var(--medium); font-weight: 500; }
+.portrait { max-width: 401px; }
+.portrait img { aspect-ratio: 401 / 600; }
+
+/* ---------- Products ---------- */
+.product { border-top: 1px solid var(--medium); padding-block: clamp(48px, 6.5vw, 96px); }
+.product:first-child { border-top: 0; }
+.product-head { display: flex; align-items: center; gap: 16px; }
+.product-head .n { font-size: .8rem; font-weight: 700; letter-spacing: .2em; color: var(--dark); }
+.quote { border-left: 2px solid var(--accent); padding: 4px 0 4px 22px; display: flex; flex-direction: column; gap: 10px; }
+.quote blockquote { font-family: var(--display); font-style: italic; font-weight: 500; font-size: clamp(1.3rem, 1.15rem + .7vw, 1.65rem); line-height: 1.25; color: var(--dark); }
+.showcase { background: var(--light); padding: clamp(24px, 3.5vw, 48px); min-height: 280px; display: flex; align-items: center; justify-content: center; gap: clamp(16px, 3vw, 36px); flex-wrap: wrap; clip-path: polygon(0 0, calc(100% - var(--cut)) 0, 100% var(--cut), 100% 100%, 0 100%); }
+.showcase img { width: auto; }
+.showcase .round { border-radius: 50%; width: min(290px, 60%); aspect-ratio: 1; object-fit: cover; }
+.showcase .cutout { width: min(300px, 52%); }
+.showcase .cutout-sm { width: min(140px, 26%); }
+.showcase .snap { width: min(250px, 38%); clip-path: polygon(0 0, calc(100% - 22px) 0, 100% 22px, 100% 100%, 0 100%); }
+.qr { background: var(--white); padding: 12px; width: min(200px, 46%); }
+.qr img { width: 100%; image-rendering: pixelated; }
+.showcase .url { font-size: var(--fs-small); font-weight: 600; color: var(--dark); overflow-wrap: anywhere; max-width: 16ch; }
+
+/* ---------- Programmes ---------- */
+.pills { display: flex; flex-wrap: wrap; gap: 12px; }
+.pills li { display: inline-flex; align-items: center; gap: 10px; padding: 10px 20px 10px 14px; border: 1px solid var(--medium); border-radius: 999px; font-size: .9rem; font-weight: 600; background: var(--white); }
+.pills .ico { width: 20px; height: 20px; color: var(--medium); }
+.formats li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 8px 22px; padding: clamp(22px, 2.6vw, 34px) 0; border-top: 1px solid var(--medium); align-items: start; }
+.formats li:last-child { border-bottom: 1px solid var(--medium); }
+.formats h3 { align-self: center; }
+.formats p { grid-column: 2; }
+@media (min-width: 900px) {
+  .formats li { grid-template-columns: auto minmax(0, 4fr) minmax(0, 7fr); gap: 0 28px; }
+  .formats h3 { align-self: start; padding-top: 12px; }
+  .formats p { grid-column: 3; padding-top: 10px; }
+}
+
+/* ---------- Hubs ---------- */
+.map svg { width: 100%; height: auto; }
+.map .st { fill: var(--light); stroke: var(--white); stroke-width: 1.2; stroke-linejoin: round; }
+.map .st.on { fill: var(--medium); stroke: var(--medium); stroke-width: 1.4; }
+.map .halo { fill: var(--accent); opacity: .3; }
+.map .dot { fill: var(--accent); stroke: var(--white); stroke-width: 2.5; }
+.map .lead { stroke: var(--dark); stroke-width: 1.2; fill: none; }
+.map .tag { fill: var(--dark); }
+.map text { font-family: var(--body); font-size: 17px; font-weight: 700; letter-spacing: .16em; fill: var(--accent); }
+.map-credit { font-size: .72rem; color: var(--medium); margin-top: 12px; }
+.legend { display: flex; flex-direction: column; }
+.legend > div { border-top: 1px solid var(--medium); padding: 20px 0; display: flex; flex-direction: column; gap: 6px; }
+.legend > div:last-child { border-bottom: 1px solid var(--medium); }
+.legend dd { font-family: var(--display); font-size: 1.3rem; font-weight: 600; line-height: 1.3; }
+.partner .role { font-size: var(--fs-label); font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--medium); line-height: 1.5; }
+.feature + .feature { margin-top: clamp(48px, 7vw, 104px); }
+
+/* ---------- Contact ---------- */
+.contact-list li { border-top: 1px solid var(--rule-on-dark); }
+.contact-list li:last-child { border-bottom: 1px solid var(--rule-on-dark); }
+.contact-list a { display: flex; align-items: center; gap: 18px; padding: 16px 0; text-decoration: none; color: var(--white); }
+.contact-list .label { display: block; }
+.contact-list .v { display: block; font-family: var(--display); font-size: clamp(1.1rem, 1rem + .6vw, 1.4rem); font-weight: 520; overflow-wrap: anywhere; line-height: 1.3; }
+.contact-list a:hover .v { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px var(--gap); }
+.field { display: flex; flex-direction: column; gap: 8px; grid-column: 1 / -1; min-width: 0; }
+@media (min-width: 640px) { .field--half { grid-column: span 1; } }
+.field label { font-size: var(--fs-label); font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--dark); line-height: 1.25rem; }
+.field .hint { font-size: .82rem; line-height: 1.45; color: var(--medium); margin-top: -2px; }
+.field .opt { font-weight: 500; letter-spacing: .08em; color: var(--medium); text-transform: none; font-size: .78rem; }
+.field input, .field select, .field textarea {
+  width: 100%; font: inherit; font-size: 1rem; color: var(--dark); background: var(--white);
+  border: 1px solid var(--medium); border-radius: 0; padding: 14px 16px; min-height: 52px;
+  -webkit-appearance: none; appearance: none;
+}
+.field select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231B3622' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 14px center; background-size: 20px; padding-right: 46px; }
+.field textarea { min-height: 150px; resize: vertical; line-height: 1.6; }
+.field input:hover, .field select:hover, .field textarea:hover { border-color: var(--dark); }
+.field select:disabled, .field select:disabled:hover { background-color: var(--light); color: var(--medium); border-color: var(--rule); cursor: not-allowed; opacity: 1; }
+.field [aria-invalid="true"] { border: 2px solid var(--dark); }
+.field .err { font-size: var(--fs-small); font-weight: 600; color: var(--dark); display: flex; gap: 8px; align-items: flex-start; }
+.field .err::before { content: ""; width: 10px; height: 10px; background: var(--accent); flex: none; margin-top: .45em; }
+.form-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
+.form-note { font-size: var(--fs-small); color: var(--medium); }
+.form-result { border: 1px solid var(--medium); background: var(--white); padding: clamp(22px, 3vw, 36px); display: flex; flex-direction: column; gap: 16px; }
+.form-result textarea { width: 100%; min-height: 190px; font: inherit; font-size: .9rem; line-height: 1.6; color: var(--dark); background: var(--light); border: 0; padding: 16px; resize: vertical; }
+.linkish { background: none; border: 0; padding: 0; font: inherit; font-size: var(--fs-small); font-weight: 600; color: var(--medium); text-decoration: underline; text-underline-offset: .2em; cursor: pointer; }
+.interest-form { background: var(--white); padding: clamp(24px, 3.5vw, 48px); }
+
+/* ---------- Footer ---------- */
+.site-footer { padding-top: clamp(56px, 7vw, 96px); border-top: 1px solid var(--rule-on-dark); }
+.site-footer::before { -webkit-mask-image: none; mask-image: none; opacity: .32; }
+.site-footer .brand-foot img { height: 40px; width: auto; }
+.site-footer .tagline { font-family: var(--display); font-style: italic; font-size: clamp(1.2rem, 1.05rem + .7vw, 1.55rem); line-height: 1.3; margin-top: 22px; max-width: 16ch; color: var(--white); }
+.foot-links { display: flex; flex-direction: column; gap: 4px; }
+.foot-links a { display: inline-flex; align-items: center; gap: 12px; padding: 7px 0; color: var(--white); text-decoration: none; font-size: .92rem; overflow-wrap: anywhere; }
+.foot-links a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .25em; }
+.foot-links .ico { width: 18px; height: 18px; color: var(--accent); }
+.site-footer .label { margin-bottom: 12px; }
+.foot-base { margin-top: clamp(40px, 5vw, 72px); border-top: 1px solid var(--rule-on-dark); padding-block: 22px; font-size: .8rem; color: var(--soft-on-dark); }
+
+/* ---------- Motion: one gentle rise, only once JS has confirmed it can run ---------- */
+@keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+.reveal.in { animation: rise .7s cubic-bezier(.2, .7, .2, 1) both; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal.in { animation: none; }
+  *, *::before, *::after { transition-duration: .01ms !important; }
+  .card:hover { transform: none; }
+}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Emporia Growth Ventures Limited", "url": "https://your-domain.example/", "logo": "https://your-domain.example/assets/img/emporia-logo-white.png", "slogan": "Accelerating Innovation for Real Impact.", "email": "emporiagrowth@gmail.com", "telephone": "+2348060278318", "sameAs": ["https://www.instagram.com/emporiahub/", "https://www.linkedin.com/company/emporia-gv/"]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap header-in">
+    <a class="brand" href="index.html" aria-label="Emporia Growth Ventures, home"><img src="assets/img/emporia-logo-white.png" width="409" height="110" alt="Emporia"></a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul><li><a href="index.html">Home</a></li><li><a href="about.html" aria-current="page">About</a></li><li><a href="products.html">Products &amp; Solutions</a></li><li><a href="services.html">Services</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="hubs.html">Hubs &amp; Ecosystem</a></li><li><a href="contact.html">Contact</a></li><li class="nav-cta"><a href="contact.html#register-interest">Register interest</a></li></ul>
+    </nav>
+    <a class="btn btn-primary btn-sm header-cta" href="contact.html#register-interest">Register interest</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Open menu</span><svg class="ico ico-open" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 5h16" /><path d="M4 12h16" /><path d="M4 19h16" /></svg><svg class="ico ico-close" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg></button>
+  </div>
+</header>
+<main id="main">
+<section class="band page-hero">
+  <div class="wrap grid">
+    <div class="stack" data-col style="--col:1/8">
+      <p class="label eyebrow">Emporia Growth Ventures Limited</p>
+      <h1>About</h1>
+      <p class="lede">Emporia Growth Ventures Limited is a business innovation and support organisation that connects sustainable solutions to the needs of African markets and communities.</p><div class="hero-cta"><a class="btn btn-primary" href="contact.html#register-interest">Register interest<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a></div>
+    </div>
+    <nav class="toc" data-col style="--col:9/13" aria-label="On this page"><p class="label">On this page</p><ol><li><a href="#introduction"><span>Introduction</span><span class="n" aria-hidden="true">01</span></a></li><li><a href="#how-we-work"><span>How We Work</span><span class="n" aria-hidden="true">02</span></a></li><li><a href="#mission-vision"><span>Mission &amp; Vision</span><span class="n" aria-hidden="true">03</span></a></li><li><a href="#philosophy"><span>Philosophy</span><span class="n" aria-hidden="true">04</span></a></li><li><a href="#leadership"><span>Leadership</span><span class="n" aria-hidden="true">05</span></a></li></ol></nav>
+  </div>
+</section>
+
+<section class="section" id="introduction" aria-labelledby="introduction-h">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="label kicker"><span class="num">01</span></p><h2 id="introduction-h">Introduction</h2></header>
+    <div class="grid">
+      <div class="stack reveal" data-col style="--col:1/8">
+        <p class="statement">We provide advisory and consulting services, business development and sales, creative development services, and digital innovation and business transformation, backed by network expertise, to help enterprises innovate, grow and compete effectively.</p>
+        <p class="measure">We believe that giving enterprises practical, sustainable solutions designed for African markets can unlock new opportunities locally. Together, we are committed to making a positive impact in our communities while supporting enterprise development across the continent.</p>
+      </div>
+      <figure data-col style="--col:9/13" class="photo photo--port reveal "><img src="assets/img/about-intro-1100.webp" width="1100" height="732" alt="A person at a desk with an open laptop, a notebook and printed charts." srcset="assets/img/about-intro-640.webp 640w, assets/img/about-intro-1100.webp 1100w" sizes="(min-width: 900px) 34vw, 92vw" loading="lazy" decoding="async"></figure>
+      <div class="reveal">
+        <p class="label" style="margin-bottom:18px">What we provide</p>
+        <ul class="provide cols-4"><li><span class="ico-disc "><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10" /><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" /></svg></span><h3>Advisory and Consulting Services</h3></li><li><span class="ico-disc "><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 7h6v6" /><path d="m22 7-8.5 8.5-5-5L2 17" /></svg></span><h3>Business Development and Sales</h3></li><li><span class="ico-disc "><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" /><path d="m15 5 4 4" /></svg></span><h3>Creative Development Services</h3></li><li><span class="ico-disc "><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2 3h20" /><path d="M21 3v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V3" /><path d="m7 21 5-5 5 5" /></svg></span><h3>Digital Innovation and Business Transformation</h3></li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light" id="how-we-work" aria-labelledby="how-we-work-h">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="label kicker"><span class="num">02</span></p><h2 id="how-we-work-h">How We Work</h2><p class="lede">Emporia works with enterprises and ecosystem partners to:</p></header>
+    <ol class="steps cols-4 reveal"><li><span class="ico-disc ico-disc--solid"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 7h6v6" /><path d="m22 7-8.5 8.5-5-5L2 17" /></svg></span><span class="n">01</span><h3>Unlock growth opportunities</h3></li><li><span class="ico-disc ico-disc--solid"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z" /><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12" /><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17" /></svg></span><span class="n">02</span><h3>Strengthen organisational capabilities</h3></li><li><span class="ico-disc ico-disc--solid"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5" /><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244" /><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05" /></svg></span><span class="n">03</span><h3>Facilitate access to markets and finance</h3></li><li><span class="ico-disc ico-disc--solid"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 15 6 6" /><path d="m15 9 6-6" /><path d="M21 16v5h-5" /><path d="M21 8V3h-5" /><path d="M3 16v5h5" /><path d="m3 21 6-6" /><path d="M3 8V3h5" /><path d="M9 9 3 3" /></svg></span><span class="n">04</span><h3>Support the scaling of sustainable business solutions</h3></li></ol>
+    <div class="grid" style="margin-top:clamp(48px,7vw,104px)">
+      <figure data-col style="--col:1/6" class="photo photo--port reveal "><img src="assets/img/about-work-960.webp" width="960" height="1440" alt="A person seated with a laptop, holding a payment card." srcset="assets/img/about-work-560.webp 560w, assets/img/about-work-960.webp 960w" sizes="(min-width: 900px) 38vw, 92vw" loading="lazy" decoding="async"></figure>
+      <div class="stack center-y reveal" data-col style="--col:7/13;--stack:28px">
+        <p class="statement">Our focus is practical: facilitating innovation and business growth while enabling operators to adopt solutions that improve productivity, reduce cost, unlock market access and scale sustainably.</p>
+        <p class="measure">We support innovation through direct and indirect means: advisory, consulting and management services delivered through programmes, market access and growth support, including access to finance, while promoting collaboration among stakeholders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="mission-vision" aria-labelledby="mission-vision-h">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="label kicker"><span class="num">03</span></p><h2 id="mission-vision-h">Mission &amp; Vision</h2></header>
+    <figure class="photo photo--wide reveal "><img src="assets/img/about-mission-1500.webp" width="1500" height="1130" alt="Three people smiling as they look at their mobile phones." srcset="assets/img/about-mission-800.webp 800w, assets/img/about-mission-1500.webp 1500w" sizes="(min-width: 1344px) 1248px, 92vw" loading="lazy" decoding="async"></figure>
+    <div class="grid" style="margin-top:clamp(36px,5vw,72px)">
+      <div class="stack reveal" data-col style="--col:1/8">
+        <div class="mv-head"><span class="ico-disc "><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg></span><h3 class="label">Mission</h3></div>
+        <p class="statement" style="color:var(--dark)">Driving sustainable growth through digital innovation and business transformation.</p>
+        <p class="measure">At Emporia, we are dedicated to empowering businesses and communities by fostering innovation and promoting sustainable growth. Our mission is to connect enterprises with market opportunities, enabling them to thrive while addressing the unique needs of the African market and promoting environmentally friendly practices.</p>
+      </div>
+      <div class="panel-dark vision reveal" data-col style="--col:8/13">
+        <div class="mv-head"><span class="ico-disc ico-disc--ondark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10" /><path d="m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z" /></svg></span><h3 class="label">Vision</h3></div>
+        <p class="statement">To be Africa’s leading catalyst for sustainable innovation and enterprise growth, transforming communities through digital solutions, clean energy and inclusive economic opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--light" id="philosophy" aria-labelledby="philosophy-h">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="label kicker"><span class="num">04</span></p><h2 id="philosophy-h">Philosophy</h2></header>
+    <div class="grid">
+      <div class="stack reveal" data-col style="--col:1/8;--stack:28px">
+        <p class="statement">At Emporia, we believe that sustainable progress begins with purposeful digital innovation.</p>
+        <p class="measure">Our philosophy is driven by collaboration, trust and impact: connecting people, technology and ideas to create and scale solutions that empower communities and drive inclusive growth. We view every challenge as an opportunity to build resilience, foster creativity and shape a future where businesses and societies thrive together.</p>
+        <ul class="values" style="margin-top:12px"><li><span class="ico-disc ico-disc--white"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="15" cy="9" r="7" /><circle cx="9" cy="15" r="7" /></svg></span><h3>Collaboration</h3><span class="n" aria-hidden="true">01</span></li><li><span class="ico-disc ico-disc--white"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /><path d="m9 12 2 2 4-4" /></svg></span><h3>Trust</h3><span class="n" aria-hidden="true">02</span></li><li><span class="ico-disc ico-disc--white"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></svg></span><h3>Impact</h3><span class="n" aria-hidden="true">03</span></li></ul>
+      </div>
+      <figure data-col style="--col:9/13" class="photo photo--tall reveal "><img src="assets/img/about-philosophy-960.webp" width="960" height="1206" alt="Solar panels on a rooftop under a bright, cloudy sky." srcset="assets/img/about-philosophy-560.webp 560w, assets/img/about-philosophy-960.webp 960w" sizes="(min-width: 900px) 34vw, 92vw" loading="lazy" decoding="async"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="leadership" aria-labelledby="leadership-h">
+  <div class="wrap">
+    <header class="sec-head reveal"><p class="label kicker"><span class="num">05</span></p><h2 id="leadership-h">Leadership</h2></header>
+    <div class="grid">
+      <figure class="photo portrait reveal" data-col style="--col:1/5"><img src="assets/img/majid-tokurah-401.webp" width="401" height="600" alt="Majid Tokurah standing with his arms folded." loading="lazy" decoding="async"></figure>
+      <div class="stack reveal" data-col style="--col:6/13;--stack:24px">
+        <h3 class="leader-name">Majid Tokurah</h3>
+        <div class="leader-meta">
+          <p class="leader-role">Managing Consultant and Digital Transformation Leader</p>
+          <p class="small">Logistics, Food Systems &amp; Sustainability Innovation Across Emerging Markets</p>
+        </div>
+        <p class="lede">Majid Tokurah is a visionary leader and passionate advocate for digital transformation, sustainable innovation and enterprise support across Africa. As Managing Consultant of Emporia, he brings a wealth of experience in consulting, business development, strategic leadership and ecosystem building.</p>
+        <p class="measure">Through his initiatives, Majid has positioned Emporia as a catalyst for connecting sustainable solutions, from digital transformation tools to clean energy technologies, with real market needs in African communities. His leadership emphasises innovation, inclusivity and impact, ensuring that businesses and individuals have the tools and support to thrive in a dynamic economic landscape.</p>
+        <p class="measure">Driven by a deep commitment to empowering entrepreneurs and fostering long-term growth, Majid champions collaboration, creativity and sustainability as the foundation of Emporia’s mission. His forward-thinking approach continues to inspire teams, partners and communities to embrace innovation, scale responsibly and build a future rooted in shared prosperity and resilience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="band closing" aria-labelledby="closing-h">
+  <div class="wrap stack reveal" style="--stack:clamp(24px,3vw,40px)">
+    <p class="label eyebrow">Mission</p>
+    <h2 id="closing-h">Driving sustainable growth through digital innovation and business transformation.</h2>
+    <div class="btn-row"><a class="btn btn-primary" href="contact.html#register-interest">Register interest<svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg></a><a class="btn btn-ghost" href="contact.html">Contact us</a></div>
+  </div>
+</section>
+</main>
+<footer class="band site-footer">
+  <div class="wrap">
+    <div class="grid">
+      <div data-col style="--col:1/6">
+        <a class="brand-foot" href="index.html" aria-label="Emporia Growth Ventures, home"><img src="assets/img/emporia-logo-white.png" width="409" height="110" alt="Emporia" loading="lazy" decoding="async"></a>
+        <p class="tagline">Accelerating Innovation for Real Impact.</p>
+      </div>
+      <nav data-col style="--col:6/9" aria-label="Footer">
+        <p class="label">Navigation</p>
+        <ul class="foot-links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products &amp; Solutions</a></li><li><a href="services.html">Services</a></li><li><a href="programmes.html">Programmes</a></li><li><a href="hubs.html">Hubs &amp; Ecosystem</a></li><li><a href="contact.html">Contact</a></li></ul>
+      </nav>
+      <div data-col style="--col:9/13">
+        <p class="label">Contact</p>
+        <ul class="foot-links">
+          <li><a href="tel:+2348060278318"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384" /></svg><span>+234 806 027 8318</span></a></li>
+          <li><a href="mailto:emporiagrowth@gmail.com"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7" /><rect x="2" y="4" width="20" height="16" rx="2" /></svg><span>emporiagrowth@gmail.com</span></a></li>
+          <li><a href="https://www.instagram.com/emporiahub/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg><span>Instagram: emporiahub<span class="sr-only"> (opens in a new tab)</span></span></a></li>
+          <li><a href="https://www.linkedin.com/company/emporia-gv/" target="_blank" rel="noopener"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg><span>LinkedIn<span class="sr-only"> (opens in a new tab)</span></span></a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="foot-base">© 2026 Emporia Growth Ventures Limited</p>
+  </div>
+</footer>
+<script>/* Emporia Growth Ventures Limited — site behaviour (menu, scroll reveal, forms). */
+(function () {
+  "use strict";
+
+  /* FORMS: set FORM_ENDPOINT to the URL that should receive submissions (for example a
+     form-to-email service that forwards to your inbox). It receives a JSON POST.
+     While it is empty, each form prepares the request as an email to CONTACT_EMAIL instead. */
+  var FORM_ENDPOINT = "";
+  var CONTACT_EMAIL = "emporiagrowth@gmail.com";
+
+  /* ---- Mobile menu ---- */
+  var header = document.querySelector(".site-header");
+  var toggle = document.querySelector(".menu-toggle");
+  if (header && toggle) {
+    var setOpen = function (open) {
+      header.classList.toggle("nav-open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+      toggle.querySelector(".sr-only").textContent = open ? "Close menu" : "Open menu";
+    };
+    toggle.addEventListener("click", function () {
+      setOpen(toggle.getAttribute("aria-expanded") !== "true");
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+        setOpen(false);
+        toggle.focus();
+      }
+    });
+    header.querySelectorAll(".site-nav a").forEach(function (a) {
+      a.addEventListener("click", function () { setOpen(false); });
+    });
+  }
+
+  /* ---- Scroll reveal: content is visible by default; the rise only plays as a block enters ---- */
+  var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if ("IntersectionObserver" in window && !reduce) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
+      });
+    }, { threshold: 0 });
+    document.querySelectorAll(".reveal").forEach(function (el) {
+      if (el.getBoundingClientRect().top > window.innerHeight) { io.observe(el); }
+    });
+  }
+
+  /* ---- Forms ---- */
+  var messages = {
+    name: "Enter your name.",
+    email: "Enter your email address.",
+    emailFormat: "Enter an email address in the format name@example.com.",
+    phone: "Enter a phone number we can reach you on.",
+    message: "Enter your message.",
+    area: "Choose an area of interest.",
+    specific: "Select a specific interest.",
+    organisation: "Enter your business name.",
+    location: "Enter your city and state."
+  };
+
+  /* Register interest: "Select specific interest" depends on "Choose".
+     The HTML ships every option grouped by area; here the list is narrowed to the chosen area,
+     and the field stays disabled until an area is chosen. */
+  var areaSelect = document.getElementById("interest-area");
+  var specificSelect = document.getElementById("interest-specific");
+  var specificHint = document.getElementById("interest-specific-hint");
+  var specificMap = {};
+  if (specificSelect) {
+    specificSelect.querySelectorAll("optgroup").forEach(function (group) {
+      specificMap[group.label] = Array.prototype.map.call(group.children, function (o) { return o.textContent; });
+    });
+  }
+  function loadSpecific(keep) {
+    if (!areaSelect || !specificSelect) { return; }
+    var list = specificMap[areaSelect.value] || [];
+    specificSelect.innerHTML = "";
+    specificSelect.add(new Option(list.length ? "Select one" : "Choose an area first", ""));
+    list.forEach(function (text) { specificSelect.add(new Option(text, text)); });
+    specificSelect.disabled = !list.length;
+    specificSelect.value = keep && list.indexOf(keep) > -1 ? keep : "";
+    if (specificHint) { specificHint.hidden = list.length > 0; }
+    showError(specificSelect, "");
+  }
+  if (areaSelect && specificSelect) {
+    areaSelect.addEventListener("change", function () { loadSpecific(""); });
+    areaSelect.form.addEventListener("reset", function () { setTimeout(function () { loadSpecific(""); }, 0); });
+    /* the browser may restore earlier answers after load (back button, reload) */
+    window.addEventListener("pageshow", function () { loadSpecific(specificSelect.value); });
+    loadSpecific(specificSelect.value);
+  }
+
+  /* A Register interest button carries its page's area (and, on a product, the product) to the form. */
+  function applyChoice(area, specific) {
+    if (!areaSelect) { return false; }
+    if (area) { areaSelect.value = area; loadSpecific(specific); }
+    return true;
+  }
+  document.querySelectorAll("a[data-area]").forEach(function (a) {
+    a.addEventListener("click", function () {
+      var area = a.getAttribute("data-area");
+      var note = a.getAttribute("data-specific") || "";
+      if (applyChoice(area, note)) { return; }
+      try {
+        sessionStorage.setItem("emporia-area", area);
+        sessionStorage.setItem("emporia-note", note);
+      } catch (e) { /* storage unavailable: the form simply opens with nothing chosen */ }
+    });
+  });
+  if (areaSelect) {
+    try {
+      applyChoice(sessionStorage.getItem("emporia-area"), sessionStorage.getItem("emporia-note"));
+      sessionStorage.removeItem("emporia-area");
+      sessionStorage.removeItem("emporia-note");
+    } catch (e) { /* storage unavailable */ }
+  }
+
+  function fieldError(input) {
+    var v = input.value.trim();
+    var key = input.name;
+    if (input.disabled) { return ""; }
+    if (input.required && !v) { return messages[key] || "Fill in this field."; }
+    if (input.type === "email" && v && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)) { return messages.emailFormat; }
+    return "";
+  }
+
+  function showError(input, text) {
+    var holder = document.getElementById(input.id + "-err");
+    if (!holder) { return; }
+    holder.textContent = text;
+    holder.hidden = !text;
+    if (text) { input.setAttribute("aria-invalid", "true"); } else { input.removeAttribute("aria-invalid"); }
+  }
+
+  function compose(form) {
+    var lines = [form.getAttribute("data-title"), ""];
+    form.querySelectorAll("input, select, textarea").forEach(function (el) {
+      var label = form.querySelector('label[for="' + el.id + '"]');
+      var v = el.value.trim();
+      if (label && v) {
+        lines.push(({ area: "Area of interest", specific: "Specific interest" }[el.name] || label.firstChild.textContent.trim()) + ": " + v);
+      }
+    });
+    return lines.join("\n");
+  }
+
+  document.querySelectorAll("form[data-form]").forEach(function (form) {
+    var result = document.getElementById(form.id + "-result");
+    var fields = form.querySelectorAll("input, select, textarea");
+    var button = form.querySelector('button[type="submit"]');
+
+    fields.forEach(function (el) {
+      /* Clear a field's error as soon as it is corrected, not when focus leaves it:
+         clearing on blur would shift the layout under a click on the submit button. */
+      var recheck = function () {
+        if (el.getAttribute("aria-invalid") === "true") { showError(el, fieldError(el)); }
+      };
+      el.addEventListener("input", recheck);
+      el.addEventListener("change", recheck);
+    });
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var firstBad = null;
+      fields.forEach(function (el) {
+        var err = fieldError(el);
+        showError(el, err);
+        if (err && !firstBad) { firstBad = el; }
+      });
+      if (firstBad) { firstBad.focus(); return; }
+
+      var text = compose(form);
+      var subject = form.getAttribute("data-title");
+
+      if (!FORM_ENDPOINT) { ready(text, subject); return; }
+
+      var payload = { form: form.getAttribute("data-form") };
+      fields.forEach(function (el) { payload[el.name] = el.value.trim(); });
+      button.disabled = true;
+      fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(payload)
+      }).then(function (res) {
+        if (!res.ok) { throw new Error("HTTP " + res.status); }
+        show("Request sent", "We have your request and will reply to " + payload.email + ".", null);
+        form.reset();
+      }).catch(function () {
+        ready(text, subject, "We could not send your request from this page. Send it by email instead.");
+      }).then(function () { button.disabled = false; });
+    });
+
+    function ready(text, subject, lead) {
+      show(
+        "Your request is ready to send",
+        (lead ? lead + " " : "") + "Send it to " + CONTACT_EMAIL + ". Open your email app with the request filled in, or copy the text below.",
+        { text: text, subject: subject }
+      );
+    }
+
+    function show(title, body, draft) {
+      result.querySelector("[data-result-title]").textContent = title;
+      result.querySelector("[data-result-body]").textContent = body;
+      var draftBox = result.querySelector("[data-result-draft]");
+      draftBox.hidden = !draft;
+      if (draft) {
+        var ta = result.querySelector("textarea");
+        ta.value = draft.text;
+        result.querySelector("[data-mailto]").href =
+          "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent(draft.subject) + "&body=" + encodeURIComponent(draft.text);
+        var copy = result.querySelector("[data-copy]");
+        copy.textContent = "Copy text";
+        copy.onclick = function () {
+          var done = function () { copy.textContent = "Copied"; };
+          var fallback = function () { ta.focus(); ta.select(); copy.textContent = "Text selected. Press Ctrl or Cmd + C"; };
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(ta.value).then(done, fallback);
+          } else { fallback(); }
+        };
+      }
+      form.hidden = true;
+      result.hidden = false;
+      result.focus();
+    }
+
+    result.querySelector("[data-edit]").addEventListener("click", function () {
+      result.hidden = true;
+      form.hidden = false;
+      fields[0].focus();
+    });
+  });
+})();
+</script>
+</body>
+</html>
